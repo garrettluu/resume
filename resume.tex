@@ -1,0 +1,187 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Garrett} \headerlastnamestyle{Luu} \\
+	\vspace{2mm}
+	{\faEnvelope\ galuu@ucsd.edu} | {\faMobile\ (714) 823-5110} | {\faMapMarker\ La Jolla, CA} | {\faLink\ garrettluu.github.io}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Computer Science}
+	{University of California, San Diego}
+	{La Jolla, CA}
+	{2018 – 2022}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Lead Programmer, President, Driver}
+	{FIRST Robotics Competition}
+	{Orange, CA}
+	{August 2014 – June 2018}
+	{\begin{cvitems}
+		\item {Developed control systems using Java}
+		\item {Designed layout and wired control boards for robots}
+		\item {Managed team activities using Agile Project Management}
+		\end{cvitems}}
+	\cventry
+	{Intern}
+	{StayLinked}
+	{Tustin, CA}
+	{August 2016 – August 2016}
+	{\begin{cvitems}
+		\item {Designed a web-app for customizing toolbars for company’s software.}
+		\item {Used HTML, CSS, with jQuery and JavaScript}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Java, C, Python, Lua, HTML, CSS, Javascript, SQL, jQuery, Kotlin}} \\
+		Technologies:  & {\skill{ Git, Linux/Unix, Vim, Pytorch, PID}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{3D grapher for the TI-84 Plus CE calculator}
+	{R-3}
+	{C}
+	{github.com/garrettluu/r-cubed}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Fully custom 59-key ortholinear keyboard}
+	{Junkyard}
+	{C}
+	{github.com/garrettluu/junkyard}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Used to generate splines for robots to follow autonomously}
+	{Motion Profile Generator and Follower}
+	{Java, Kotlin}
+	{github.com/garrettluu/4322Utils}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Gaussian elimination/row reduction for the TI-84 Plus CE Calculator}
+	{Gauss}
+	{C}
+	{github.com/garrettluu/gauss}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Personal website/blog, future hub for projects}
+	{Personal Website}
+	{HTML, CSS, Javascript, jQuery}
+	{garrettluu.github.io}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Android app for managing tasks}
+	{WorkFlow}
+	{Java, Kotlin, SQL}
+	{}
+	{}
+
+	\vspace{-5mm}
+	\cventry
+	{Allows for the use of vim shortcuts in Google Docs}
+	{vimDocs}
+	{Javascript, jQuery}
+	{github.com/garrettluu/vimDocs}
+	{}
+\end{cventries}
+\cvsection{Awards}
+\begin{cvhonors}
+	\cvhonor
+	{UCSD Chancellor\textquotesingle{}s Scholarship}
+	{Awarded to high-achieving, low-income students}
+	{UC San Diego}
+	{March 2018}
+	\cvhonor
+	{FIRST Robotics Competition SpaceX Scholarship}
+	{Awarded to FIRST alumni based on software project involvement}
+	{SpaceX}
+	{July 2018}
+	\cvhonor
+	{VPHS Mathematics Medallion Recipient}
+	{Recognizes exceptional students in mathematics, one of four recipients}
+	{Villa Park HS}
+	{June 2018}
+	\cvhonor
+	{National AP Scholar}
+	{Recognizes students who received average scores of 4 or higher on all AP exams taken, and scores of 4 or higher on eight or more exams}
+	{CollegeBoard}
+	{July 2018}
+\end{cvhonors}
+\end{document}
