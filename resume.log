@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.17)  17 NOV 2018 00:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.17)  15 JAN 2019 23:58
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -807,26 +807,21 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 64.
-
-Overfull \hbox (37.43669pt too wide) in paragraph at lines 103--103
-[][][]|  
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-[1
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+ [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
  26545 strings out of 427796
  468846 string characters out of 3146665
- 680262 words of memory out of 3000000
+ 678262 words of memory out of 3000000
  30345 multiletter control sequences out of 15000+200000
  534365 words of font info for 75 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
