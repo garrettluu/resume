@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.17)  15 JAN 2019 23:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.17)  2 FEB 2019 15:07
 entering extended mode
-**./resume.tex
+**resume.tex
 (resume.tex
 LaTeX2e <2018-04-01> patch level 5
 (awesome-cv.cls
@@ -787,6 +787,10 @@ LaTeX Info: Redefining \nameref on input line 44.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.00015pt on input line 64.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -807,24 +811,24 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 64.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
- [1
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+[1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
  26545 strings out of 427796
- 468846 string characters out of 3146665
- 678262 words of memory out of 3000000
+ 468844 string characters out of 3146665
+ 679147 words of memory out of 3000000
  30345 multiletter control sequences out of 15000+200000
  534365 words of font info for 75 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 54i,15n,72p,820b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,15n,72p,818b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on resume.pdf (1 page).
