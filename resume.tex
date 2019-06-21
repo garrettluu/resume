@@ -42,7 +42,7 @@
 %%% Override a separator for social informations in header(default: ' | ')
 %\headersocialsep[\quad\textbar\quad]
     \begin{document}
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Profile
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,10 +75,10 @@
 	{Participant}
 	{IEEE Quarterly Projects}
 	{La Jolla, CA}
-	{January – March 2019}
+	{January – June 2019}
 	{\begin{cvitems}
 		\item {Built heart-rate monitoring glove and web application to display information}
-		\item {Used Node.js, Express for backend development}
+    \item {Built XY plotter device that draws images from svg files}
 		\end{cvitems}}
 	\cventry
 	{Lead Programmer, President, Driver}
@@ -99,7 +99,7 @@
 		\item {Designed a web-app for customizing toolbars for company’s software.}
 		\item {Used HTML, CSS, with jQuery and JavaScript}
 		\end{cvitems}}
-	
+
 \end{cventries}
 \vspace{-5mm}
 \cvsection{Skills}
@@ -107,8 +107,10 @@
 	\cventry
 	{}
 	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Programming Languages:  & {\skill{ Java, C, HTML, CSS, Javascript, Kotlin}} \\
-		Technologies/Frameworks:  & {\skill{ Git, Linux/Unix, Vim, PID, jQuery, Node.js, Express, Electron}} \\
+		Programming Languages:  & {\skill{ Java, C, HTML, CSS, Javascript, Kotlin,
+      ARM Assembly}} \\
+		Technologies/Frameworks:  & {\skill{ Git, Linux/Unix, Vim, jQuery,
+      Node.js, Express, Electron, Firebase, React}} \\
 		\end{tabular}}}
 	{}
 	{}
@@ -119,29 +121,28 @@
 \cvsection{Projects}
 \begin{cventries}
 	\cventry
-	{3D grapher for the TI-84 Plus CE calculator}
-	{R-3}
+	{3D graphics library for the TI-84 Plus CE calculator}
+	{Cuboid}
 	{C}
-	{github.com/garrettluu/r-cubed}
-	{}
-	
-	\vspace{-5mm}
-	\cventry
-	{Fully custom 59-key ortholinear keyboard}
-	{Junkyard}
-	{C}
-	{github.com/garrettluu/junkyard}
-	{}
-	
-	\vspace{-5mm}
-	\cventry
-	{Used to generate splines for robots to follow autonomously}
-	{Motion Profile Generator and Follower}
-	{Java, Kotlin}
-	{github.com/garrettluu/4322Utils}
+	{github.com/garrettluu/cuboid}
 	{}
 
-	
+	\vspace{-5mm}
+	\cventry
+  {HackXX 2019 Project - Conceptual web application for decentralized ridesharing}
+  {Carpool}
+	{Firebase, Express, React, Node.js}
+	{github.com/garrettluu/carpool}
+	{}
+
+	\vspace{-5mm}
+	\cventry
+  {IEEE Spring 2019 Project - Draws images on paper from vector-image files}
+	{XY Plotter}
+	{GRBL}
+  {}
+	{}
+
 	\vspace{-5mm}
 	\cventry
 	{Personal website/blog, future hub for projects}
@@ -152,20 +153,20 @@
 
 	\vspace{-5mm}
 	\cventry
-  	{HARD Hack 2019 Project - Keeps track of which seats are occupied on a bus}
+  {HARD Hack 2019 Project - Keeps track of which seats are occupied on a bus}
 	{Seatz}
 	{Javascript, Express, Node.js}
 	{github.com/garrettluu/seatz}
-  	{}
-  
+  {}
+
   \vspace{-5mm}
 	\cventry
-  	{IEEE Winter 2019 Project - Tracks and displays heart rate over time}
+  {IEEE Winter 2019 Project - Tracks and displays heart rate over time}
 	{Heath Glove}
 	{Javascript, Express, Node.js}
 	{github.com/garrettluu/seatz}
-  	{}
-	
+  {}
+
 
 \end{cventries}
 \cvsection{Awards}
@@ -187,7 +188,8 @@
 	{June 2018}
 	\cvhonor
 	{National AP Scholar}
-	{Recognizes students who received average scores of 4 or higher on all AP exams taken, and scores of 4 or higher on eight or more exams}
+	{Recognizes students who received average scores of 4 or higher on all AP
+    exams taken, and scores of 4 or higher on eight or more exams}
 	{CollegeBoard}
 	{July 2018}
 \end{cvhonors}
